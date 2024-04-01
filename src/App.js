@@ -20,6 +20,7 @@ function App() {
     <>
       <TopBanner></TopBanner>
       <Navbar></Navbar>
+        <Advertisement></Advertisement>
       <BrowserRouter>
       <Routes>
       <Route path="/" element={<Header img={logo} title="Unlock Your Potential Achieve Your Desired IELTS Score with " htitle1="DPD" htitle2="IELTS" htitle3 titletext1="Welcome to DPD IELTS, the premier IELTS preparation center for students around the world. Experience of over 10+ Years in IELTS and PTE. We are recognized as the best IELTS Institute and PTE Institute in the Barnala region. Our experienced and highly qualified team of instructors is dedicated to helping you achieve success on the IELTS exam and reach your academic or professional goals." titletext3="Study Abroad | Practice tests | IELTS prep | Exam Strategy"/>}/>
@@ -28,7 +29,6 @@ function App() {
         <Route path="/contact/*" element={<Contact />} />
          </Routes>
     </BrowserRouter>
-    <Advertisement></Advertisement>
     <ContactUs></ContactUs>
     <Footer></Footer>
     </>
