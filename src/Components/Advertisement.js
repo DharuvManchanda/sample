@@ -2,8 +2,7 @@ import imgg from "./Assets/image-3.png";
 import img from "./Assets/feature-2.png";
 export default function Advertisement(){
 return(
-<div className="container">
-<div className="advertise">
+<div className="advertise container">
 <div className="leftAd"><h3>
 Why Choose PTE Over any other course ?
     </h3>
@@ -37,7 +36,6 @@ Choose a better test experience with our two-hour pte computer-based exam, frien
 The Australian, New Zealand, and UK governments accept PTE as proof of English for all visa tiers.</p>
 </div>
         
-</div>
 </div>
 </div>)
 }
