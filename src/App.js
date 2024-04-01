@@ -28,6 +28,7 @@ function App() {
         <Route path="/contact/*" element={<Contact />} />
          </Routes>
     </BrowserRouter>
+      <Advertisement></Advertisement>
     <ContactUs></ContactUs>
     <Footer></Footer>
     </>
